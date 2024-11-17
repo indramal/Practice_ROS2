@@ -1,0 +1,42 @@
+# Ignore build artifacts
+*/build/
+*/install/
+*/log/
+
+# ROS 2 workspace tools
+.colcon/
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+*.swp
+*.bak
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ROS 2 launch logs
+*.launch.*
+*.log
+
+# ROS 2 test results
+/test_results/
+
+# Temporary files
+*.tmp
+*.~*
+*.swp
+*.DS_Store
+
+# IDE-specific files (e.g., for VSCode or CLion)
+.idea/
+*.iml
+
+# Other unnecessary files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+*.rar
