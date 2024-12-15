@@ -20,7 +20,13 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'node_py = py_package_practical_1.node_py:main'
+            'node_py = py_package_practical_1.node_py:main',
+            'topic_py = py_package_practical_1.topic_py:main',
+            'service_client_py = py_package_practical_1.service_client_py:main',
+            'service_server_py = py_package_practical_1.service_server_py:main',
+            'parameters_py = py_package_practical_1.parameters_py:main',
+            'lifecycle_py = py_package_practical_1.lifecycle_py:main',
+            'lifecycle_node_manager_py = py_package_practical_1.lifecycle_node_manager_py:main',
         ],
     },
 )
