@@ -1,5 +1,9 @@
 # Practice_ROS2
 
+## Sections
+
+ros2_ws_1 - This is basic ROS2 Workspace
+ros2_ws_2 - This is Gazebo with ROS2 Workspace
 
 Commands:
 
