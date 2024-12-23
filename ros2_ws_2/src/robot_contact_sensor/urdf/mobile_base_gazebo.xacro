@@ -41,4 +41,14 @@
         <plugin filename="ignition-gazebo-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher"></plugin>
     </gazebo>
 
+
+    <!-- <plugin filename="gz-sim-triggered-publisher-system" name="gz::sim::systems::TriggeredPublisher">
+            <input type="gz.msgs.Boolean" topic="/wall/touched">
+                <match>data: true</match>
+            </input>
+            <output type="gz.msgs.Twist" topic="/cmd_vel">
+                linear: {x: 0.0}, angular: {z: 0.0}
+            </output>
+        </plugin> -->
+
 </robot>

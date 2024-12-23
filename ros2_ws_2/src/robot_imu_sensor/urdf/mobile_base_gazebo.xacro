@@ -41,4 +41,15 @@
         <plugin filename="ignition-gazebo-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher"></plugin>
     </gazebo>
 
+    <gazebo reference="base_link">
+        <sensor name="imu_sensor" type="imu">
+            <always_on>1</always_on>
+            <update_rate>1</update_rate>
+            <visualize>true</visualize>
+            <topic>imu</topic>
+            <plugin filename="gz-sim-imu-system" name="gz::sim::systems::Imu">
+            </plugin>
+        </sensor>
+    </gazebo>
+
 </robot>
