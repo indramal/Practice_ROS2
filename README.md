@@ -2,8 +2,14 @@
 
 ## Sections
 
+ros2_ws_0 - This is URDF/XACRO with ROS2 Workspace
 ros2_ws_1 - This is basic ROS2 Workspace
 ros2_ws_2 - This is Gazebo with ROS2 Workspace
+ros2_ws_3 - This is SLAM and Nav2 with ROS2 Workspace
+ros2_ws_4 - This is MoveIt with ROS2 Workspace
+ros2_ws_5 - This is ROS2_Control with ROS2 Workspace
+ros2_ws_6 - This is QT with ROS2 Workspace
+ros2_ws_7 - This is Blender + Avatar + Fuel with ROS2 Workspace
 
 Commands:
 
